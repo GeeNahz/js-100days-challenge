@@ -14,6 +14,7 @@ function changeColor (){
   // the limit should be set to colors.length - 1 because the last index in the array is 4 whereas the length of the array is 5 and we'd like to change colors five times and not six times.
   // NOTE: counter is initialized as 0 so counting to 4 makes it to count five times
   if(counter < colors.length - 1){
+    
     counter ++;
   }else{
     counter = 0;
